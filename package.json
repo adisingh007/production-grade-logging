@@ -4,8 +4,19 @@
   "description": "Hitesh Choudhary from Youtube tutorial on Winston",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run clean && tsc",
+    "start": "NODE_ENV=production node target/index.js",
+    "start-youtube": "NODE_ENV=youtube node target/index.js",
+    "clean": "rimraf logs target"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.3"
+  }
 }
