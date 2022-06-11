@@ -1,4 +1,9 @@
 Just wanted to learn about how to setup production grade logging.  
 Using winston library with typescript to setup our logging.  
   
-We could use some APM (Application Performance Monitoring) system later (Datadog? Newrelic? Anything...) 😉  
+We could use some APM (Application Performance Monitoring) system later (Datadog? Newrelic? Anything...) 😉   
+
+You can run the application in:  
+
+1. Local environment: `npm run start-local`  
+2. Production environment: `npm start`  
