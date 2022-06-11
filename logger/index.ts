@@ -1,9 +1,9 @@
 import { Logger } from "winston";
 
-import { youtubeLogger } from "./youtubeLogger";
+import { localLogger } from "./localLogger";
 import { productionLogger } from "./productionLogger";
 
-export let logger: Logger = youtubeLogger();
+export let logger: Logger = localLogger();
 
 if (process.env.NODE_ENV === "production") {
     logger = productionLogger();

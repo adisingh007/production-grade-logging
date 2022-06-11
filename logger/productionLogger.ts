@@ -1,4 +1,3 @@
-// const winston = require("winston");
 import { createLogger, format, Logger, transports } from "winston";
 const { combine, timestamp, printf } = format;
 

@@ -1,12 +1,12 @@
 {
   "name": "youtube-winston",
   "version": "1.0.0",
-  "description": "Hitesh Choudhary from Youtube tutorial on Winston",
+  "description": "Testing out production grade logging",
   "main": "index.js",
   "scripts": {
     "build": "npm run clean && tsc",
     "start": "NODE_ENV=production node target/index.js",
-    "start-youtube": "NODE_ENV=youtube node target/index.js",
+    "start-local": "NODE_ENV=local node target/index.js",
     "clean": "rimraf logs target"
   },
   "author": "",
