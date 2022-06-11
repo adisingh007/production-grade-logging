@@ -10,7 +10,7 @@ export const localLogger = (): Logger => {
         level: "debug",
         format: combine(
             colorize(),
-            timestamp({format: "DD/MM/YYYYTHH:mm:ss"}),
+            timestamp({format: "HH:mm:ss"}),
             myFormat
         ),
         transports: [
