@@ -1,0 +1,6 @@
+Just wanted to learn about how to setup production grade logging.  
+Using winston library with typescript to setup our logging.  
+  
+We could use some APM (Application Performance Monitoring) system later (Datadog? Newrelic? Anything...) 😉  
+  
+
